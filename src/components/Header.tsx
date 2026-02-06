@@ -23,20 +23,20 @@ const Header: React.FC = () => {
         <header className={isMenuOpen ? 'nav-open' : ''}>
             <Link to="/" className="logo">PARADISO BEAUTY</Link>
 
-            <div className="header-actions">
-                <nav className={isMenuOpen ? 'active' : ''}>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/products">Products</Link></li>
-                        <li><Link to="/services">Services</Link></li>
-                        <li><Link to="/articles">Articles</Link></li>
-                        <li><Link to="/contact">Contact Us</Link></li>
-                        <li className="mobile-only-link">
-                            <a href="https://wa.me/2347033330327" className="btn header-btn-mobile">Book Now</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav className={isMenuOpen ? 'active' : ''}>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/products">Products</Link></li>
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/articles">Articles</Link></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
+                    <li className="mobile-only-link">
+                        <a href="https://wa.me/2347033330327" className="btn header-btn-mobile">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
 
+            <div className="header-actions">
                 <a
                     href="https://wa.me/2347033330327"
                     className="btn header-btn"
