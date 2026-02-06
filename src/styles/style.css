@@ -472,13 +472,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 1002;
+    /* Ensure it's above the main header */
     transform: translateY(-100%);
     transition: var(--transition);
     pointer-events: none;
-    /* Block clicks when hidden */
     visibility: hidden;
-    /* Extra safety */
   }
 
   nav.active {
@@ -494,8 +493,17 @@ footer {
   }
 
   nav ul li a {
-    font-size: 1.8rem;
     color: var(--white);
+  }
+
+  .mobile-only-link {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .header-btn-mobile {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
   }
 
   .menu-toggle {

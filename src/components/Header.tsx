@@ -31,6 +31,9 @@ const Header: React.FC = () => {
                         <li><Link to="/services">Services</Link></li>
                         <li><Link to="/articles">Articles</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
+                        <li className="mobile-only-link">
+                            <a href="https://wa.me/2347033330327" className="btn header-btn-mobile">Book Now</a>
+                        </li>
                     </ul>
                 </nav>
 
