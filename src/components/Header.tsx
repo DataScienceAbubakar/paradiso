@@ -7,18 +7,20 @@ const Header: React.FC = () => {
 
     // Close menu when route changes
     useEffect(() => {
+        console.log('Route changed to:', location.pathname);
         setIsMenuOpen(false);
         document.body.style.overflow = 'auto';
     }, [location]);
 
     const toggleMenu = () => {
         const newState = !isMenuOpen;
+        console.log('Menu Toggle clicked. New state:', newState);
         setIsMenuOpen(newState);
         document.body.style.overflow = newState ? 'hidden' : 'auto';
     };
 
     return (
-        <header>
+        <header className={isMenuOpen ? 'nav-open' : ''}>
             <Link to="/" className="logo">PARADISO BEAUTY</Link>
             <nav className={isMenuOpen ? 'active' : ''}>
                 <ul>
@@ -33,6 +35,7 @@ const Header: React.FC = () => {
                 className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
                 onClick={toggleMenu}
                 aria-label="Toggle Navigation"
+                style={{ display: 'flex' }} /* Forced flex for visibility */
             >
                 <span></span>
                 <span></span>
