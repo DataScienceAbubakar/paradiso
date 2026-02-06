@@ -9,7 +9,7 @@ const Services: React.FC = () => {
 
     const skinBody = [
         { id: 4, name: 'Facial Treatments', desc: 'Customized facials using organic ingredients to rejuvenate and brighten your complexion.', price: 'From $90', img: '/assets/service_facial.png' },
-        { id: 5, name: 'Body Spa', desc: 'Total relaxation experience with therapeutic massages and body scrubs in a serene setting.', price: 'From $120', img: 'https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?auto=format&fit=crop&q=80&w=400' },
+        { id: 5, name: 'Body Spa', desc: 'Total relaxation experience with therapeutic massages and body scrubs in a serene setting.', price: 'From $120', img: '/assets/spa.png' },
         { id: 6, name: 'Henna Artistry', desc: 'Traditional and contemporary henna designs applied with 100% natural, rich organic dye.', price: 'From $35', img: '/assets/service_henna.png' }
     ];
 
