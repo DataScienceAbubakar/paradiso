@@ -3,8 +3,8 @@ import React from 'react';
 const Services: React.FC = () => {
     const hairArtistry = [
         { id: 1, name: 'Wash and Set', desc: 'A classic treatment for a fresh, bouncy look using premium shampoos and conditioners.', price: 'From $45', img: '/assets/service_hair.png' },
-        { id: 2, name: 'Steaming & Stretching', desc: 'Deep conditioning and professional lengthening techniques for healthy, vibrant hair.', price: 'From $60', img: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&q=80&w=400' },
-        { id: 3, name: 'Retouching & Braiding', desc: 'Expert root perfection and intricate braiding styles crafted by our master stylists.', price: 'From $80', img: 'https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?auto=format&fit=crop&q=80&w=400' }
+        { id: 2, name: 'Steaming & Stretching', desc: 'Deep conditioning and professional lengthening techniques for healthy, vibrant hair.', price: 'From $60', img: '/assets/stretching.png' },
+        { id: 3, name: 'Retouching & Braiding', desc: 'Expert root perfection and intricate braiding styles crafted by our master stylists.', price: 'From $80', img: '/assets/braiding.png' }
     ];
 
     const skinBody = [
