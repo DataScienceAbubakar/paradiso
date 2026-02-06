@@ -133,7 +133,7 @@ nav ul li a:hover::after {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(45, 8, 28, 0.5), rgba(45, 8, 28, 0.3)), url('/src/assets/hero.png');
+  background: linear-gradient(rgba(45, 8, 28, 0.5), rgba(45, 8, 28, 0.3)), url('/assets/hero.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -159,6 +159,19 @@ nav ul li a:hover::after {
   margin-bottom: 2.5rem;
   font-weight: 300;
   opacity: 0.95;
+}
+
+.product-hero {
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/products.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+  padding-top: 80px;
 }
 
 .btn {

@@ -2,19 +2,19 @@ import React from 'react';
 
 const Services: React.FC = () => {
     const hairArtistry = [
-        { id: 1, name: 'Wash and Set', desc: 'A classic treatment for a fresh, bouncy look using premium shampoos and conditioners.', price: 'From $45', img: '/src/assets/service_hair.png' },
+        { id: 1, name: 'Wash and Set', desc: 'A classic treatment for a fresh, bouncy look using premium shampoos and conditioners.', price: 'From $45', img: '/assets/service_hair.png' },
         { id: 2, name: 'Steaming & Stretching', desc: 'Deep conditioning and professional lengthening techniques for healthy, vibrant hair.', price: 'From $60', img: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&q=80&w=400' },
         { id: 3, name: 'Retouching & Braiding', desc: 'Expert root perfection and intricate braiding styles crafted by our master stylists.', price: 'From $80', img: 'https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?auto=format&fit=crop&q=80&w=400' }
     ];
 
     const skinBody = [
-        { id: 4, name: 'Facial Treatments', desc: 'Customized facials using organic ingredients to rejuvenate and brighten your complexion.', price: 'From $90', img: '/src/assets/service_facial.png' },
+        { id: 4, name: 'Facial Treatments', desc: 'Customized facials using organic ingredients to rejuvenate and brighten your complexion.', price: 'From $90', img: '/assets/service_facial.png' },
         { id: 5, name: 'Body Spa', desc: 'Total relaxation experience with therapeutic massages and body scrubs in a serene setting.', price: 'From $120', img: 'https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?auto=format&fit=crop&q=80&w=400' },
-        { id: 6, name: 'Henna Artistry', desc: 'Traditional and contemporary henna designs applied with 100% natural, rich organic dye.', price: 'From $35', img: '/src/assets/service_henna.png' }
+        { id: 6, name: 'Henna Artistry', desc: 'Traditional and contemporary henna designs applied with 100% natural, rich organic dye.', price: 'From $35', img: '/assets/service_henna.png' }
     ];
 
     const handFeet = [
-        { id: 7, name: 'Luxe Manicure', desc: 'Shape, buff, and polish with premium lacquers for elegant and strong hands.', price: 'From $50', img: '/src/assets/service_nails.png' },
+        { id: 7, name: 'Luxe Manicure', desc: 'Shape, buff, and polish with premium lacquers for elegant and strong hands.', price: 'From $50', img: '/assets/service_nails.png' },
         { id: 8, name: 'Luxe Pedicure', desc: 'Complete foot rejuvenation including exfoliation and soothing massage.', price: 'From $65', img: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=400' }
     ];
 
