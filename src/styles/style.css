@@ -536,6 +536,14 @@ footer {
     transform: translateY(-9px) rotate(45deg);
     background: var(--white);
   }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-actions {
+    gap: 1rem;
+  }
 }
 
 /* Base toggle button (Hidden on desktop) */

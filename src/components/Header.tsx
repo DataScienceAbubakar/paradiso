@@ -22,26 +22,40 @@ const Header: React.FC = () => {
     return (
         <header className={isMenuOpen ? 'nav-open' : ''}>
             <Link to="/" className="logo">PARADISO BEAUTY</Link>
-            <nav className={isMenuOpen ? 'active' : ''}>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/products">Products</Link></li>
-                    <li><Link to="/services">Services</Link></li>
-                    <li><Link to="/articles">Articles</Link></li>
-                    <li><Link to="/contact">Contact Us</Link></li>
-                </ul>
-            </nav>
-            <div
-                className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
-                onClick={toggleMenu}
-                aria-label="Toggle Navigation"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
+
+            <div className="header-actions">
+                <nav className={isMenuOpen ? 'active' : ''}>
+                    <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">Products</Link></li>
+                        <li><Link to="/services">Services</Link></li>
+                        <li><Link to="/articles">Articles</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
+                    </ul>
+                </nav>
+
+                <a
+                    href="https://wa.me/2347033330327"
+                    className="btn header-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Book Now
+                </a>
+
+                <div
+                    className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
+                    onClick={toggleMenu}
+                    aria-label="Toggle Navigation"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </header>
     );
 };
+
 
 export default Header;
