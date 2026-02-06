@@ -35,7 +35,6 @@ const Header: React.FC = () => {
                 className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
                 onClick={toggleMenu}
                 aria-label="Toggle Navigation"
-                style={{ display: 'flex' }} /* Forced flex for visibility */
             >
                 <span></span>
                 <span></span>
