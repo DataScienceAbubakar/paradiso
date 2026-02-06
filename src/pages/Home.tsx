@@ -11,6 +11,43 @@ const Home: React.FC = () => {
                 <Link to="/services" className="btn">Explore Services</Link>
             </section>
 
+            <section id="explore">
+                <div className="section-title">
+                    <h2>Explore Our World</h2>
+                    <div className="divider"></div>
+                </div>
+                <div className="explore-grid">
+                    <Link to="/products" className="explore-card">
+                        <div className="explore-img" style={{ backgroundImage: "url('/assets/products.png')" }}></div>
+                        <div className="explore-overlay">
+                            <h3>Boutique</h3>
+                            <p>Premium Bags & Accessories</p>
+                        </div>
+                    </Link>
+                    <Link to="/services" className="explore-card">
+                        <div className="explore-img" style={{ backgroundImage: "url('/assets/service_hair.png')" }}></div>
+                        <div className="explore-overlay">
+                            <h3>Lounge</h3>
+                            <p>Bespoke Beauty Services</p>
+                        </div>
+                    </Link>
+                    <Link to="/articles" className="explore-card">
+                        <div className="explore-img" style={{ backgroundImage: "url('/assets/service_facial.png')" }}></div>
+                        <div className="explore-overlay">
+                            <h3>Journal</h3>
+                            <p>Beauty Insights & Tips</p>
+                        </div>
+                    </Link>
+                    <Link to="/contact" className="explore-card">
+                        <div className="explore-img" style={{ backgroundImage: "url('/assets/hero.png')" }}></div>
+                        <div className="explore-overlay">
+                            <h3>Visit Us</h3>
+                            <p>Find Our Sanctuary</p>
+                        </div>
+                    </Link>
+                </div>
+            </section>
+
             <section id="about">
                 <div className="section-title">
                     <h2>The Paradiso Experience</h2>
